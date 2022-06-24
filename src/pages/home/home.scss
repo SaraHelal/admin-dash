@@ -2,5 +2,10 @@
     display: flex;
    .homeContainer{
         flex: 6;
+        .widgets, .charts{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
     }
 }
