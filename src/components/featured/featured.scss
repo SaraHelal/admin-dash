@@ -18,4 +18,58 @@
             color: gray;
         }
     }
+    .bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        .featuredChart{
+            width: 100px;
+            height: 100px;
+        }
+        .title{
+            font-weight: 500;
+            color: gray;
+        }
+        .amount{
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .desc{
+            font-size: 12px;
+            text-align: center;
+            font-weight: 300;
+            color: gray;
+        }
+        .summary{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .item{
+                text-align: center;
+                .itemTitle{
+                    font-size: 14px;
+                    color: gray;
+                }
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    
+                    &.positive{
+                        color: green;
+                    }
+                    &.negative{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
 }
